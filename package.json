@@ -1,0 +1,42 @@
+{
+  "name": "discord-audio-playback-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that enables seamless music playback in Discord servers, fostering community interactions through music.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "music",
+    "playback",
+    "community"
+  ],
+  "author": "Drix10",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.x.x",
+    "axios": "^1.x.x",
+    "mongoose": "^7.x.x",
+    "dotenv": "^16.x.x",
+    "@discordjs/rest": "^1.x.x",
+    "@discordjs/builders": "^1.x.x",
+    "@discordjs/voice": "^0.x.x",
+    "express": "^4.x.x",
+    "cors": "^2.x.x",
+    "jsonwebtoken": "^8.x.x",
+    "multer": "^1.x.x",
+    "yt-search": "^3.x.x",
+    "node-fetch": "^3.x.x",
+    "ffmpeg-static": "^5.x.x"
+  },
+  "devDependencies": {
+    "nodemon": "^2.x.x"
+  },
+  "engines": {
+    "node": ">=16.x"
+  }
+}
